@@ -1,22 +1,22 @@
 import React,{useRef} from "react";
 import "./Join.css";
-// import emailjs from 'email.js/browser'
+// import emailjs from '@emailjs/browser'
 
 const Join = () => {
 
-    // const form = useRef();
+//     const form = useRef();
 
-    // eslint-disable-next-line no-unused-vars
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
+//     // eslint-disable-next-line no-unused-vars
+//     const sendEmail = (e) => {
+//         e.preventDefault();
     
-    //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    //       .then((result) => {
-    //           console.log(result.text);
-    //       }, (error) => {
-    //           console.log(error.text);
-    //       });
-    //   };
+//         emailjs.sendForm('service_qn38fi9', 'template_4pafk9p', form.current, 'XKRjucTLo8TvLH7yH')
+//           .then((result) => {
+//               console.log(result.text);
+//           }, (error) => {
+//               console.log(error.text);
+//           });
+//       };
   return (
     <div className="Join" id="join-us">
       <div className="left-j">
@@ -33,7 +33,7 @@ const Join = () => {
       <div className="right-j">
 
         <form action="" className="email-container">
-            <input type="email" name="user-email" placeholder="Enter your email address" />
+            <input type="email" name="from_name" placeholder="Enter your email address" />
             <button className="btn btn-j">Join Now</button>
         </form>
       </div>
