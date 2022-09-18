@@ -6,6 +6,9 @@ import Calories from "../../assets/calories.png";
 import hero_image_back from '../../assets/hero_image_back.png'
 
 const Hero = () => {
+  function update(){
+   prompt('Enter you name');
+  }
   return (
     <div className="hero" id="home">
     <div className="blur hero-blur"></div>
@@ -55,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
+        <button className="btn" onClick={update} >Join Now</button>
 
         <div className="heart-rate">
           <img src={Heart} alt="" />
