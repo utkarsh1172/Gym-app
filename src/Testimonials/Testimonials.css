@@ -99,7 +99,7 @@
     }
     .right-t>img{
         position: relative;
-        /* display: none; */
+        cursor: pointer;
     }
     .right-t>:last-child{
         display: block;
